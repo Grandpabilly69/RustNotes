@@ -42,7 +42,7 @@ fn main() {
     //parse tries to convert the string into
     //the integer type
     //unwrap returns the actual int type
-    let int_input = input.trim().parse().unwrap();
+    let int_input: u8 = input.trim().parse().unwrap();
 
     println!("{}", int_input);
 }
