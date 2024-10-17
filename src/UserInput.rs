@@ -21,6 +21,7 @@ fn main() {
     //the expect handles and caches the error
     io::stdin().read_line(&mut name).expect("Failed to read name");
 
+
     //outputting what user entered
     println!("{}",name);
 }
